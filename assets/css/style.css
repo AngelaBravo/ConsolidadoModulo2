@@ -12,7 +12,7 @@ footer {
 }
 
 /* estilos de layout generales */
-header {
+header { /* va el nombre */
     height: 20vh;
     /* background-color: yellow; */
     display: flex;
@@ -21,22 +21,22 @@ header {
     padding-right: 2rem;
 }
 
-body>section {
+body>section { /* secion donde está el formulario */ 
     height: 50vh;
     /* background-color: blue; */
     display: grid;
     place-content: center;
 }
 
-main {
+main {  /* seccion donde están los botones con informacion y los proyectos*/
     height: 30vh;
-    /* background-color: crimson; */
+  /*   background-color: crimson; */
     display: grid;
     place-content: center;
 }
 
 
-form {
+form { /* el formulario en sí */
     width: fit-content;
     padding: 2rem;
     /* border: 1px solid black; */
@@ -47,35 +47,35 @@ form {
     /* background-color: lightblue; */
 }
 
-main>section {
-    /* background-color: green; */
+main>section { /* Los botones de informacion y proyectos */
+   /*  background-color: green; */
     height: 10vh;
     position: relative;
 }
 
-section>button {
+section>button {  /*  efecto bonito de sombras en los botones*/
     height: fit-content;
     width: clamp(130px, 25vw, 500px);
     background-color: transparent;
     border-color: rgb(197, 15, 158);
-    border-radius: 8px;
+    border-radius: 30px;
     box-shadow: 2px 2px 8px 2px rgb(253, 249, 5);
 
     }
 
-h1 {
+h1 {  /* el nombre */
     color: rgb(197, 15, 158);
     font-family: "Dancing Script", cursive;
 }
 
-p {
+p {  /* texto antes del formulario */
     color: rgb(197, 15, 158);
     font-weight: 500;
     font-size: small;
     margin-bottom: 0;
 }
 
-a{
+a{  /* link para que no tenga la linea */
     text-decoration: none;
 }
 
@@ -117,55 +117,12 @@ a{
         background-color: rgb(236, 14, 32);
     }
 
-    .bg-transparent{
+    .bg-transparent{  /* el boton rojo*/
         text-align: center;
     }
 
-    section>button{
+    section>button{  /* paddind para regular altura de botones de infor y proyectos */
         padding: 1rem;
     }
 
-    /*
-    .apellido {
-        color: rgb(197, 15, 158);
-        font-family: "Dancing Script", cursive;
-        margin-top: 2%;
-    }
-
-    .btn1 {
-        font-size: 1.875rem;
-    }
-
-    .btn2 {
-        font-size: 1.875rem;
-    }
-
-    .formulario {
-        padding-top: 20%;
-        display: inline-block;
-        color: rgb(197, 15, 158);
-        font-size: 1.25rem;
-        margin-left: 15%;
-    }
-
-    .boton-redondo {
-        width: 3.75rem;
-        height: 3.75rem;
-        border-radius: 50%;
-        padding: 0;
-        text-align: center;
-        line-height: 50px;
-        background-color: rgb(236, 14, 32);
-    }
-
-    footer {
-        display: block;
-        margin: 3.125rem;
-        text-align: center;
-        color: rgb(197, 15, 158);
-    }
-
-    .principal {
-        margin-top: 15%;
-    }*/
 }
