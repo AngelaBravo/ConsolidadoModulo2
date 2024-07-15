@@ -1,0 +1,171 @@
+/* para celular */
+body {
+    background-image: url(https://frasesparafotos.top/wp-content/uploads/2023/02/fondo-pantalla-marmol-rosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+footer {
+    display: none;
+}
+
+/* estilos de layout generales */
+header {
+    height: 20vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+body>section {
+    height: 50vh;
+    /* background-color: blue; */
+    display: grid;
+    place-content: center;
+}
+
+main {
+    height: 30vh;
+    /* background-color: crimson; */
+    display: grid;
+    place-content: center;
+}
+
+
+form {
+    width: fit-content;
+    padding: 2rem;
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: lightblue; */
+}
+
+main>section {
+    /* background-color: green; */
+    height: 10vh;
+    position: relative;
+}
+
+section>button {
+    height: fit-content;
+    width: clamp(130px, 25vw, 500px);
+    background-color: transparent;
+    border-color: rgb(197, 15, 158);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 2px rgb(253, 249, 5);
+
+    }
+
+h1 {
+    color: rgb(197, 15, 158);
+    font-family: "Dancing Script", cursive;
+}
+
+p {
+    color: rgb(197, 15, 158);
+    font-weight: 500;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* para escritorio */
+@media (min-width:800px) {
+    body {
+        background-image: url(https://img.freepik.com/vector-premium/vintage-fondo-acuarela-floral-splash_108834-675.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    header{
+        height: 15vh;
+    }
+
+    body>section{
+        height: 35vh;
+    }
+
+    main{
+        height: 40vh;
+    }
+
+    footer{
+        display: block;
+        height: 10vh;
+    }
+
+    .boton-redondo {
+        width: 3.75rem;
+        height: 3.75rem;
+        border-radius: 50%;
+        padding: 0;
+        text-align: center;
+        line-height: 50px;
+        background-color: rgb(236, 14, 32);
+    }
+
+    .bg-transparent{
+        text-align: center;
+    }
+
+    section>button{
+        padding: 1rem;
+    }
+
+    /*
+    .apellido {
+        color: rgb(197, 15, 158);
+        font-family: "Dancing Script", cursive;
+        margin-top: 2%;
+    }
+
+    .btn1 {
+        font-size: 1.875rem;
+    }
+
+    .btn2 {
+        font-size: 1.875rem;
+    }
+
+    .formulario {
+        padding-top: 20%;
+        display: inline-block;
+        color: rgb(197, 15, 158);
+        font-size: 1.25rem;
+        margin-left: 15%;
+    }
+
+    .boton-redondo {
+        width: 3.75rem;
+        height: 3.75rem;
+        border-radius: 50%;
+        padding: 0;
+        text-align: center;
+        line-height: 50px;
+        background-color: rgb(236, 14, 32);
+    }
+
+    footer {
+        display: block;
+        margin: 3.125rem;
+        text-align: center;
+        color: rgb(197, 15, 158);
+    }
+
+    .principal {
+        margin-top: 15%;
+    }*/
+}

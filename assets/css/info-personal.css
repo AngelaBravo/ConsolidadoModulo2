@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+    padding-left: auto ;
+    margin-top: 3%;
+}
+
+h5{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card{
+    padding-top: 50px;
+}

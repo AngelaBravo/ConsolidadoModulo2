@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(245, 240, 244);
+}
+
+.titulo{
+    font-family: "Dancing Script", cursive;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pie{
+    height: 100px;
+    align-items: center;
+}

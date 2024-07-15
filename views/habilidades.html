@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/habilidades.css">
+    <title>Habilidades y Proyectos</title>
+</head>
+
+<body>
+    <!-- Ir al home -->
+    <div class="position-relative">
+        <button type="button" class="btn bg-danger-subtle btn-outline-secondary position-fixed top-0 end-0 "
+            id="irhome"><a href="../index.html" target="-blank">Ir al <span class="fs-2">🏠</span> </a></button>
+    </div>
+    <!-- los links para habilidades y proyectos -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p><a href="#habilidades" class="link-underline-info">Habilidades personales</a>
+            </div>
+            <div class="col-6">
+                <p><a href="#proyectos" class="link-underline-info">Proyectos Terminados</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- contenedor con habilidades  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center m-3 titulo border-bottom" id="habilidades">HABILIDADES PERSONALES</div>
+            <div class="col-12 col-md-6 titulo">Habilidades Cognitivas
+                <div class="contain p-3"> <br>
+                    <li>Funciones Ejecutivas</li><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi impedit corporis consequuntur
+                        nesciunt ea omnis dolores atque cum totam adipisci ipsam earum voluptatem repellat aliquam
+                        officia, vitae inventore similique odit?</p>
+                    <li>Razonamiento</li><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perferendis veniam ipsam fuga ea
+                        repellat eos minus cupiditate voluptatem? Harum consequatur incidunt rerum eos perspiciatis
+                        facere! Esse quia aliquid sapiente.</p>
+                    <li>Capacidad de Abstracción</li><br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quia consequuntur earum porro
+                        neque, quo non modi sequi doloremque aperiam odit, ad aut quod veritatis enim voluptas
+                        asperiores voluptatem quisquam?</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 titulo">Habilidadeds Blandas
+                <div class="container p-3"><br>
+                    <li>Trabajo en equipo</li><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iusto laboriosam optio earum
+                        ratione? </p>
+                    <li>Atencion al detalle</li><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatum repellendus totam
+                        ullam dolores. Est, harum. Tempore quae quis a deleniti facere quidem deserunt quas odio dolor.
+                        Fugit, ipsa aspernatur?</p>
+                    <li>capacidad analitica y de resolución de problemas</li><br>
+                    <p>lorem lorem Lorem </p>
+                    <li>perdona lo poco</li>
+                    <p>ya me aburrí con los lorem</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- contenedor con proyectos -->
+    <div class="container">
+        <div class="card">
+            <img src="../assets/img/fotocalidad.jpeg" class="card-img-top" alt="imagen">
+            <div class="card-body">
+                <h5 class="card-title titulo text-center" id="proyectos">PROYECTOS TERMINADOS</h5>
+                <p class="card-text">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Proyecto: Perico los palotes
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Detalle</strong> It is shown by default, until the collapse plugin adds the
+                                appropriate classes that we use to style each element. These classes control the
+                                overall appearance, as well as the showing and hiding via CSS transitions. You can
+                                modify any of this with custom CSS or overriding our default variables.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Proyecto: La curiosidad mato al gato
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Detalle.</strong> It is hidden by default, until the collapse plugin adds
+                                the appropriate classes that we use to style each element. These classes control the
+                                overall appearance, as well as the showing and hiding via CSS transitions. You can
+                                modify any of this with custom CSS or overriding our default variables.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Proyecto: Se me acabó la imaginación
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Detalle.</strong> It is hidden by default, until the collapse plugin adds
+                                the appropriate classes that we use to style each element. These classes control the
+                                overall appearance, as well as the showing and hiding via CSS transitions. You can
+                                modify any of this with custom CSS or overriding our default variables.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pie de pagina -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row" id="pie">
+                <div class="col-12 text-center">
+                <a href="#" class="link-underline-info">Volver al inicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
